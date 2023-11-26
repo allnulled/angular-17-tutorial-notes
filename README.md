@@ -128,21 +128,31 @@ export class AppComponent {
 - Módulo: `Input`
 - `bindingPropertyName: string`
 
+----
+
 - Decorador: `@Output`
 - Módulo: `Output`
 - `bindingPropertyName: string`
+
+----
 
 - Decorador: `@Attribute`
 - Módulo: `Attribute`
 - `attributeName: string`
 
+----
+
 - Decorador: `@Hostlistener args: string[]`
 - Módulo: `HostListener`
 - `eventName: string`
 
+----
+
 - Decorador: `@HostBinding`
 - Módulo: `HostBinding`
 - `hostPropertyName: string`
+
+----
 
 - Decorador: `@Component`
 - Módulo: `Component`
@@ -158,6 +168,8 @@ export class AppComponent {
 - `templateUrl: string`
 - `viewProviders: Provider[]`
 
+----
+
 - Decorador: `@Directive`
 - Módulo: `Directive`
 - `exportAs: string`
@@ -168,17 +180,25 @@ export class AppComponent {
 - `queries: {[key: string]: any}`
 - `selector: string`
 
+----
+
 - Decorador: `@Host`
 - Módulo: `Host`
 - ...
+
+----
 
 - Decorador: `@Inject`
 - Módulo: `Inject`
 - `token: any`
 
+----
+
 - Decorador: `@Injectable`
 - Módulo: `Injectable`
 - ...
+
+----
 
 - Decorador: `@NgModule`
 - Módulo: `NgModule`
@@ -191,17 +211,25 @@ export class AppComponent {
 - `providers: Provider[]`
 - `schemas:Array<SchemaMetadata|any[]>`
 
+----
+
 - Decorador: `@Optional`
 - Módulo: `Optional`
 - `...`
+
+----
 
 - Decorador: `@Pipe name: string`
 - Módulo: `Pipe`
 - `pure: boolean`
 
+----
+
 - Decorador: `@Self`
 - Módulo: `Self`
 - ...
+
+----
 
 - Decorador: `@SkipSelf`
 - Módulo: `SkipSelf`
@@ -259,38 +287,54 @@ del componente.
 - `ng g component nomComponente`
 - Es el principal elemento mediante el cual construimos los elementos y la lógica de la página.
 
+----
+
 - **Directive**
 - `ng g d`
 - `ng g directive nomDirectiva`
 - Permite añadir comportamiento dinámico a HTML (estructurales y de atributos).
+
+----
 
 - **Pipe**
 - `ng g p`
 - `ng g pipe nomPipe`
 - Genera una salida transformando un dato obtenido desde la entrada.
 
+----
+
 - **Service**
 - `ng g s`
 - `ng g service nomServicio`
 - Son clases complementarias a los componentes que permiten realizar cierta lógica o acciones como puede ser proporcionar datos a los componentes o realizar peticiones al servidor, etc.
+
+----
 
 - **Class**
 - `ng g cl`
 - `ng g class nomClase`
 - Añade una clase a la aplicación.
 
+----
+
 - **Guard**
 - `ng g guard nomGuard`
 - Añade funciones que permiten controlar o activar ciertas rutas.
+
+----
 
 - **Interface**
 - `ng g interface nominterface`
 - Añade interfaces a la aplicación (contratos que otras clases han de cumplir para utilizarlos).
 
+----
+
 - **Enum**
 - `ng g e`
 - `ng g enum nomEnum`
 - Genera una enumeración.
+
+----
 
 - **Module**
 - `ng g m`
